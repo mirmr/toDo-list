@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Gulzar&family=Open+Sans:wght@400;600;700&family=Raleway:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+.wrapper{
+    margin:0 auto;
+    max-width:1024px;
+    height: 100%;
+    background-color: white;
+    border-radius:10px;
+    border: 3px solid black;
+    padding: 20px 30px ;
+}
+
+button{
+    cursor: pointer;
+}
+.management{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.control{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+margin-bottom: 20px;
+
+}
+.btn-app{
+    background-color: plum;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:black;
+    min-width: fit-content;
+    height: 50px;
+    padding: 10px 20px;
+}
+.enter-text{
+    min-width: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.search-text{
+    min-width: 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+}
+ul{
+    display: flex;
+  justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+li{
+    align-self: center;
+    list-style-type: none;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.task-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   width: 70%;
+    justify-self: center;
+
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+
+}
+.task-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+border-radius: 10px;
+    background-color: plum;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.task-title{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.task-text{
+word-break: break-all;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.small-container{
+
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+   justify-content: space-evenly;
+
+}
+.btn-close{
+    width: 20px;
+    height: 20px;
+    align-text: center;
+    font-size: 12px;
+    margin: 20px
+
+}
+.small-container input{
+    margin-top:10px;
+    margin-right: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link rel= "stylesheet" href="style/style.css">
+</head>
+<body>
+<div id="root">
+    <section class="wrapper">
+        <div class="management">
+            <button class="btn-app" id="delAll">Delete all</button>
+            <button class="btn-app">delete last</button>
+            <input type="text" class="enter-text" id="task-text" placeholder="Enter todo ..."/>
+            <button class="btn-app" id="addBtn">add</button>
+        </div>
+        <div class="control">
+            <p class="task-count" >All :</p>
+            <p class="task-count" >Completed :</p>
+            <button class="btn-app">show all</button>
+            <button class="btn-app">show completed</button>
+            <input type="text" class="search-text" id="search-task" placeholder="Search..."/>
+        </div>
+        <ul class="tasks" id = "notes">
+          <!--  <li class="task-item">
+          <div class = "task-content">
+                <input type="checkbox" class="checkbox">
+                <p class="task-text">todo text</p>
+                </div>
+                <div class="small-container">
+                    <button class=" btn-close">&#9587;</button>
+                    <input type="date"/>
+                </div>
+            </li> -->
+        </ul>
+    </section>
+
+
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
